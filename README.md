@@ -38,8 +38,7 @@ desired number of iterations.
 
 `for it = 1, 2, 3, ..., niter:`
 
-##### • Split the n samples in the training set (same split for both `x` and `y`) into ***B*** groups that we call
-mini-batches (Similarly to what you do with k-fold cross-validation).
+##### • Split the n samples in the training set (same split for both `x` and `y`) into ***B*** groups that we call mini-batches (Similarly to what you do with k-fold cross-validation).
 
 ##### • for `mini_batch` = 1, 2, . . . , B:
 
