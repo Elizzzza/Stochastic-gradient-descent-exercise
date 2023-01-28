@@ -27,7 +27,8 @@ Let `beta = beta_init` be the parameter to be optimized and let `niter` be the d
 • Compute the gradient of the loss function w.r.t. `beta` (using the entire training set)
 
 • Update parameters:
-– `beta = beta – learning_rate*gradient`
+
+–   `beta = beta – learning_rate*gradient`
 
 **Pseudocode for stochastic gradient descent**  
 Let `x` be a n &times; (p + 1)
@@ -42,10 +43,11 @@ mini-batches (Similarly to what you do with k-fold cross-validation).
 
 • for `mini_batch` = 1, 2, . . . , B:
 
-– Compute the loss function (using the entire training set)
+–   Compute the loss function (using the entire training set)
 
-– Compute gradient of the loss function w.r.t. beta (using onlythe observations in the current
+–   Compute gradient of the loss function w.r.t. beta (using onlythe observations in the current
 `mini_batch`)
 
-– Update parameters:
+–   Update parameters:
+
 ∗ `beta = beta – learning_rate*gradient`
